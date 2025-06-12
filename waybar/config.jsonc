@@ -1,0 +1,43 @@
+{
+  "layer": "top",
+  "position": "top",
+  "height": 27,
+
+  "modules-left": ["custom/launcher", "wlr/taskbar"],
+  "modules-center": [],
+  "modules-right": ["hyprland/workspaces", "tray", "battery", "clock"],
+
+  "tray": {
+    "spacing": 5,
+  },
+  "custom/launcher": {
+     "format": "",
+     "format-icon-size": 18,
+     "on-click": "wofi --show drun",
+     "tooltip": false
+  },
+
+  "hyprland/workspaces": {
+    "format": "{name}",
+  },
+
+  "wlr/taskbar": {
+    "format": "{title}",
+    "markup": true,
+    "icon-size": 18,
+    "on-click": "activate",
+  },
+
+  "clock": {
+    "format": "{:%A  %b, %d  %I:%M %p}",
+    "interval": 1,
+    "align": 1,
+    "justify": "right",
+  },
+
+  "custom/power": {
+    "format": "⏻",
+    "tooltip": "Power Off",
+    "on-click": "poweroff",
+  },
+}

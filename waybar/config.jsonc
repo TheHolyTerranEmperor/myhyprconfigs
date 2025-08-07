@@ -11,9 +11,9 @@
     "spacing": 5,
   },
   "custom/launcher": {
-     "format": "",
+     "format": "T",
      "format-icon-size": 18,
-     "on-click": "wofi --show drun",
+     "on-click": "fuzzel",
      "tooltip": false
   },
 

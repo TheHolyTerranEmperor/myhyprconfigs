@@ -83,7 +83,7 @@ general {
     border_size = 3
 
     # https://wiki.hyprland.org/Configuring/Variables/#variable-types for info about colors
-    col.active_border = rgba(ffffff33)#rgba(ca5cddcc) rgba(34343455) 90deg
+    col.active_border = rgba(ffffff11)#rgba(ca5cddcc) rgba(34343455) 90deg
     col.inactive_border = rgba(000000bb)
 
     # Set to true enable resizing windows by clicking and dragging on borders and gaps
@@ -312,7 +312,7 @@ plugin:dynamic-cursors {
 #windowrule = plugin:hyprbars:nobar, ^(steam)$
 #windowrule = plugin:hyprbars:nobar, ^(Discord)$
 #windowrule = plugin:hyprbars:nobar, ^(System)$
-windowrulev2 = noshadow, class:.*
+#windowrulev2 = noshadow, class:.*
 #windowrule = noblur,title:(System)
 #windowrule = xray 1,title:(System)
 #windowrule = opacity 0.0 override 0.0 override,title:(System)

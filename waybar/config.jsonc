@@ -8,16 +8,16 @@
   "modules-right": ["hyprland/workspaces", "tray", "battery", "clock"],
 
   "tray": {
-    "spacing": 5,
+    "spacing": 8
   },
+  
   "custom/launcher": {
-     "format": "T",
+     "format": "",
      "format-icon-size": 18,
      "on-click": "fuzzel",
      "tooltip": false
   },
-
-  "hyprland/workspaces": {
+    "hyprland/workspaces": {
     "format": "{name}",
   },
 

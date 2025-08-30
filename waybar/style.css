@@ -1,13 +1,13 @@
 * {
   /* font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
-  font-family: "DepartureMonoNerdFont";
+  font-family: "AdwaitaMonoNerdFont";
   border: none;
   text-shadow: none;
   box-shadow: none;
   border-radius: 0;
   font-weight: 500;
   font-size: 12.7px;
-  color: #f0c400;
+  color: #ffffff;
 }
 
 window#waybar {

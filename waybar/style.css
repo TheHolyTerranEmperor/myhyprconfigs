@@ -1,40 +1,9 @@
-* {
-  /* font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif; */
-  font-family: "AdwaitaMonoNerdFont";
-  border: none;
-  text-shadow: none;
-  box-shadow: none;
-  border-radius: 0;
-  font-weight: 500;
-  font-size: 12.7px;
-  color: #ffffff;
+* { 
+border: none;
+font-weight: bold;
+color: #f20000;
 }
 
 window#waybar {
-  background-color: rgba(80, 80, 80, 0);
-
-  padding: 0 5px;
-
-  transition-property: background-color;
-  transition-duration: 0.5s;
-}
-
-.modules-right {
-  padding: 0 10px;
-}
-
-#clock {
-  font-size: 12px;
-  margin-left: 10px;
-}
-
-/* #custom-power { */
-/*   font-size: 15px; */
-/*   margin-left: 10px; */
-/*   margin-right: 10px; */
-/* } */
-#custom-launcher {
-  font-size: 20px;
-  padding-left: 14px;
-  padding-right: 10px;
+  background-color: rgba(0,0,0,0);
 }

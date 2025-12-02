@@ -2,42 +2,28 @@
   "layer": "top",
   "position": "top",
   "height": 27,
-
-  "modules-left": ["custom/launcher", "wlr/taskbar"],
-  "modules-center": [],
-  "modules-right": ["hyprland/workspaces", "tray", "battery", "clock"],
-
-  "tray": {
-    "spacing": 8
-  },
+  "modules-left": ["wlr/taskbar"],
+  "modules-canter": [],
+  "modules-right": ["hyprland/workspaces", "tray" , "battery", "clock"],
   
-  "custom/launcher": {
-     "format": "",
-     "format-icon-size": 18,
-     "on-click": "fuzzel",
-     "tooltip": false
+  "tray": {
+     "spacing": 10
   },
-    "hyprland/workspaces": {
-    "format": "{name}",
-  },
-
   "wlr/taskbar": {
-    "format": "{title}",
-    "markup": true,
-    "icon-size": 18,
-    "on-click": "activate",
+     "format": "{title}",
+     "markup": true,
+     "icon-size": 18,
+     "on-click": "activate"
   },
-
+  "hyprland/workspaces": {
+     "format": "{name}"
+  },
   "clock": {
-    "format": "{:%A  %b, %d  %I:%M %p}",
-    "interval": 1,
-    "align": 1,
-    "justify": "right",
-  },
+     "format": "{:%A %b, %d %I:%M %p}",
+     "interval": 1,
+     "align": 1,
+     "justify": "right" 
+  }
 
-  "custom/power": {
-    "format": "⏻",
-    "tooltip": "Power Off",
-    "on-click": "poweroff",
-  },
 }
+
